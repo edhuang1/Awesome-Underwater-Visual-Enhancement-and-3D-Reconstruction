@@ -23,12 +23,18 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           # Publishers (IEEE, Elsevier, Wiley, MDPI, Sage) bot-block automated
-          # requests, so 403/429 are excluded rather than treated as failures.
+          # requests, so 403/429 are accepted rather than treated as failures.
+          # The AAAI hosts negotiate HTTP/2 incorrectly and always fail here even
+          # though the URLs resolve in a browser, so they are excluded outright.
           args: >-
             --no-progress
             --accept 200,202,206,403,429
             --exclude-path .github
+            --exclude 'ojs\.aaai\.org'
+            --exclude 'doi\.org/10\.1609'
             --max-concurrency 4
+            --max-retries 3
+            --retry-wait-time 5
             --timeout 30
             './**/*.md'
           fail: false
