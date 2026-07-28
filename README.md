@@ -327,13 +327,9 @@ Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and
 | 2022 | TIP | UIF: An Objective Quality Assessment for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2205.09392) / [Code](https://github.com/z21110008/UIF) | UIF |
 | 2023 | AAAI | Underwater Ranker: Learn Which Is Better and How to Be Better | [Paper](https://arxiv.org/abs/2208.06857) / [Code](https://github.com/RQ-Wu/UnderwaterRanker) / [Project](https://li-chongyi.github.io/URanker_files/) | URanker |
 
-<!-- Uncomment after pushing to GitHub, replacing OWNER/REPO with the real path:
-
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
-
--->
+[![Star History Chart](https://api.star-history.com/svg?repos=edhuang1/Awesome-Underwater-Visual-Enhancement-and-3D-Reconstruction&type=Date)](https://star-history.com/#edhuang1/Awesome-Underwater-Visual-Enhancement-and-3D-Reconstruction&Date)
 
 ## Related Awesome Lists
 
