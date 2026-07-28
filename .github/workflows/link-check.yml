@@ -1,0 +1,42 @@
+name: Link Check
+
+on:
+  push:
+    paths: ['**.md']
+  pull_request:
+    paths: ['**.md']
+  schedule:
+    - cron: '0 6 1 * *'   # monthly, on the 1st
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Publishers (IEEE, Elsevier, Wiley, MDPI, Sage) bot-block automated
+          # requests, so 403/429 are excluded rather than treated as failures.
+          args: >-
+            --no-progress
+            --accept 200,202,206,403,429
+            --exclude-path .github
+            --max-concurrency 4
+            --timeout 30
+            './**/*.md'
+          fail: false
+
+      - name: Open an issue on failure
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links found
+          content-filepath: ./lychee/out.md
+          labels: broken-links, automated

@@ -69,10 +69,10 @@ Prior and concurrent surveys on underwater enhancement, SLAM, and neural renderi
 | 2022 | Computer Science Review | Visual SLAM for Underwater Vehicles: A Survey | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1574013722000442) | - |
 | 2023 | Remote Sensing | An Overview of Key SLAM Technologies for Underwater Scenes | [Paper](https://www.mdpi.com/2072-4292/15/10/2496) | - |
 | 2024 | arXiv | How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey | [Paper](https://arxiv.org/abs/2402.13255) | - |
-| 2024 | arXiv | A Comprehensive Survey on Underwater Image Enhancement Based on Deep Learning | [Paper](https://arxiv.org/abs/2405.19684) | - |
 | 2024 | Ocean Engineering | Robust visual-based localization and mapping for underwater vehicles: A survey | [Paper](https://doi.org/10.1016/j.oceaneng.2024.119274) | - |
 | 2024 | The Visual Computer | Underwater image restoration and enhancement: a comprehensive review of recent trends, challenges, and applications | [Paper](https://doi.org/10.1007/s00371-024-03630-w) | - |
 | 2025 | arXiv | Underwater Image Enhancement using Generative Adversarial Networks: A Survey | [Paper](https://arxiv.org/abs/2501.06273) | GAN-UIE Survey |
+| 2026 | TETCI | A Comprehensive Survey on Underwater Image Enhancement Based on Deep Learning | [Paper](https://arxiv.org/abs/2405.19684) | - |
 
 ## Non-learning Enhancement and Restoration
 
@@ -123,12 +123,13 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2023 | AAAI | Underwater Ranker: Learn Which Is Better and How to Be Better | [Paper](https://arxiv.org/abs/2208.06857) / [Code](https://github.com/RQ-Wu/UnderwaterRanker) / [Project](https://li-chongyi.github.io/URanker_files/) | NU2Net |
 | 2023 | TCSVT | Beyond Single Reference for Training: Underwater Image Enhancement via Comparative Learning | [Paper](https://ieeexplore.ieee.org/document/9965419) / [Project](https://justwj.github.io/CLUIE-Net.html/) | CLUIE-Net |
 | 2023 | TOMM | Wavelength-based Attributed Deep Neural Network for Underwater Image Restoration | [Paper](https://arxiv.org/abs/2106.07910) / [Code](https://github.com/pksvision/Deep-WaveNet-Underwater-Image-Restoration) | Deep WaveNet |
+| 2023 | ICME | Transmission and Color-guided Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2308.04892) | ATDCnet |
 | 2023 | BMVC | Five A+ Network: You Only Need 9K Parameters for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2305.08824) / [Code](https://github.com/Owen718/FiveAPlus-Network) | FiveA+ |
 | 2024 | ICASSP | Toward Sufficient Spatial-Frequency Interaction for Gradient-aware Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2309.04089) / [Code](https://github.com/zhihefang/SFGNet) | SFGNet |
 | 2024 | WACV | PhISH-Net: Physics Inspired System for High Resolution Underwater Image Enhancement | [Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Chandrasekar_PhISH-Net_Physics_Inspired_System_for_High_Resolution_Underwater_Image_Enhancement_WACV_2024_paper.pdf) / [Code](https://github.com/chandrasekaraditya/PhISH-Net) | PhISH-Net |
 | 2024 | ESWA | LiteEnhanceNet: A Lightweight Network for Real-time Single Underwater Image Enhancement | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423030488) | LiteEnhanceNet |
 | 2025 | SMC | MAC-Lookup: Multi-Axis Conditional Lookup Model for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2507.02270) / [Code](https://github.com/onlycatdoraemon/MAC-Lookup) | MAC-Lookup |
-| 2025 | arXiv | Adaptive Frequency Fusion and Illumination Aware Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2512.05960) | AQUA-Net |
+| 2025 | arXiv | AQUA-Net: Adaptive Frequency Fusion and Illumination Aware Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2512.05960) | AQUA-Net |
 
 ### GAN-based
 
@@ -180,7 +181,7 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2025 | PRCV | O-Mamba: O-shape State-Space Model for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2408.12816) / [Code](https://github.com/chenydong/O-Mamba) | O-Mamba |
 | 2026 | AAAI | Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement | [Paper](https://arxiv.org/abs/2501.14265) / [Code](https://github.com/BinCVER/BEM) | BEM |
 | 2026 | AAAI | PGMamba: A Physical Model-Guided Global Mamba for Underwater Image Enhancement | [Paper](https://doi.org/10.1609/aaai.v40i11.37895) | PGMamba |
-| 2026 | arXiv | Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2604.16266) | Hero-Mamba |
+| 2026 | AAAI-W | Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2604.16266) | Hero-Mamba |
 
 ### Diffusion-based
 
@@ -272,11 +273,12 @@ NeRF methods that model the water column / participating medium inside volume re
 | 2025 | RA-L | RecGS: Removing Water Caustic with Recurrent Gaussian Splatting | [Paper](https://arxiv.org/abs/2407.10318) / [Code](https://github.com/tyz1030/recgs) / [Project](https://tyz1030.github.io/publications/2024-recgs.html) | RecGS |
 | 2025 | ICRA | SeaSplat: Representing Underwater Scenes with 3D Gaussian Splatting and a Physically Grounded Image Formation Model | [Paper](https://arxiv.org/abs/2409.17345) / [Code](https://github.com/dxyang/seasplat) / [Project](https://seasplat.github.io/) | SeaSplat |
 | 2025 | WACV | UW-GS: Distractor-Aware 3D Gaussian Splatting for Enhanced Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2410.01517) | UW-GS |
-| 2025 | arXiv | 3D-UIR: 3D Gaussian for Underwater 3D Scene Reconstruction via Physics Based Appearance-Medium Decoupling | [Paper](https://arxiv.org/abs/2505.21238) / [Project](https://bilityniu.github.io/3D-UIR/) | 3D-UIR |
-| 2025 | arXiv | From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes | [Paper](https://arxiv.org/abs/2509.17789) | R2R-GS |
+| 2025 | ACM MM | Spatiotemporal Degradation-Aware 3D Gaussian Splatting for Realistic Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2604.23551) | MarineSTD-GS |
+| 2025 | arXiv | From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes | [Paper](https://arxiv.org/abs/2509.17789) | R-Splatting |
 | 2025 | BMVC | RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2505.15737) / [Code](https://github.com/theflash987/RUSplatting) | RUSplatting |
 | 2025 | arXiv | UW-3DGS: Underwater 3D Reconstruction with Physics-Aware Gaussian Splatting | [Paper](https://arxiv.org/abs/2508.06169) | UW-3DGS |
 | 2025 | arXiv | SWAGSplatting: Semantic-guided Water-scene Augmented Gaussian Splatting | [Paper](https://arxiv.org/abs/2509.00800) | SWAGSplatting |
+| 2026 | TIP | 3D-UIR: 3D Gaussian for Underwater 3D Scene Reconstruction via Physics Based Appearance-Medium Decoupling | [Paper](https://arxiv.org/abs/2505.21238) / [Project](https://bilityniu.github.io/3D-UIR/) | 3D-UIR |
 | 2026 | AAAI | OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2601.04984) / [Project](https://oceansplat.github.io) | OceanSplat |
 | 2026 | arXiv | ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting | [Paper](https://arxiv.org/abs/2604.11992) | ReefMapGS |
 
@@ -284,28 +286,28 @@ NeRF methods that model the water column / participating medium inside volume re
 
 | Year | Name | Description | Links |
 |------|------|-------------|-------|
-| 2016 | **TURBID** | TURBID: tank-controlled turbidity image sets (milk added stepwise) with clean reference images for quantitative evaluation of restoration methods. | [Paper](https://www.semanticscholar.org/paper/A-dataset-to-evaluate-underwater-image-restoration-Duarte-Codevilla/d03f56f3d87270f2fee8362a4229a2f7f48ba6ed) |
-| 2019 | **U45** | U45: 45 real underwater test images grouped into green, blue, and haze-like degradation categories; widely used no-reference test set. | [Paper](https://arxiv.org/abs/1906.06819) |
+| 2016 | **TURBID** | Tank-controlled turbidity image sets (milk added stepwise) with clean reference images for quantitative evaluation of restoration methods. | [Paper](https://www.semanticscholar.org/paper/A-dataset-to-evaluate-underwater-image-restoration-Duarte-Codevilla/d03f56f3d87270f2fee8362a4229a2f7f48ba6ed) |
+| 2019 | **U45** | 45 real underwater test images grouped into green, blue, and haze-like degradation categories; widely used no-reference test set. | [Paper](https://arxiv.org/abs/1906.06819) |
 | 2019 | **Sea-thru** | Sea-thru dataset: ~1100 raw linear underwater images across 5 scenes (D1-D5) with per-pixel SfM depth maps, for physics-based color restoration. | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Akkaynak_Sea-Thru_A_Method_for_Removing_Water_From_Underwater_Images_CVPR_2019_paper.html) / [Project](https://www.kaggle.com/datasets/colorlabeilat/seathru-dataset) |
 | 2019 | **AQUALOC** | 17 monocular+IMU+pressure sequences from ROVs near the seabed (harbor and archaeological sites at 270 m / 380 m) with SfM reference trajectories for SLAM. | [Paper](https://arxiv.org/abs/1910.14532) / [Project](https://www.lirmm.fr/aqualoc/) |
-| 2020 | **UIEB** | UIEB: 950 real underwater images, 890 with human-selected enhanced references plus 60 challenging images; the de facto standard UIE benchmark (with Water-Net baseline). | [Paper](https://arxiv.org/abs/1901.05495) / [Project](https://li-chongyi.github.io/proj_benchmark.html) |
-| 2020 | **RUIE** | RUIE: large-scale real marine-farm benchmark with three subsets (UIQS visibility, UCCS color cast, UHTS detection task) for enhancement and downstream detection. | [Paper](https://arxiv.org/abs/1901.05320) / [Code](https://github.com/dlut-dimt/Realworld-Underwater-Image-Enhancement-RUIE-Benchmark) |
-| 2020 | **EUVP** | EUVP: large-scale paired (~11K) and unpaired (~7.5K) collections of poor/good-quality underwater images from 7 cameras; introduced with FUnIE-GAN. | [Paper](https://arxiv.org/abs/1903.09766) / [Code](https://github.com/xahidbuffon/FUnIE-GAN) / [Project](http://irvlab.cs.umn.edu/resources/euvp-dataset) |
-| 2020 | **UFO-120** | UFO-120: 1500 train + 120 test samples for joint enhancement and 2x/3x/4x super-resolution (SESR), with saliency annotations; introduced with Deep SESR. | [Paper](https://arxiv.org/abs/2002.01155) / [Code](https://github.com/xahidbuffon/Deep_SESR) |
-| 2020 | **SUIM** | SUIM: first large-scale underwater semantic segmentation dataset, 1500+ images with pixel-level labels for 8 categories (fish, reefs, divers, robots, wrecks, etc.). | [Paper](https://arxiv.org/abs/2004.01241) / [Code](https://github.com/IRVLab/SUIM) |
-| 2021 | **SQUID** | SQUID: 57 stereo underwater pairs from 4 dive sites (Red Sea and Mediterranean) with in-scene color charts and stereo-derived distance maps for quantitative restoration evaluation. | [Paper](https://arxiv.org/abs/1811.01343) / [Project](https://csms.haifa.ac.il/profiles/tTreibitz/datasets/ambient_forwardlooking/index.html) |
+| 2020 | **UIEB** | 950 real underwater images, 890 with human-selected enhanced references plus 60 challenging images; the de facto standard UIE benchmark (with Water-Net baseline). | [Paper](https://arxiv.org/abs/1901.05495) / [Project](https://li-chongyi.github.io/proj_benchmark.html) |
+| 2020 | **RUIE** | Large-scale real marine-farm benchmark with three subsets (UIQS visibility, UCCS color cast, UHTS detection task) for enhancement and downstream detection. | [Paper](https://arxiv.org/abs/1901.05320) / [Code](https://github.com/dlut-dimt/Realworld-Underwater-Image-Enhancement-RUIE-Benchmark) |
+| 2020 | **EUVP** | Large-scale paired (~11K) and unpaired (~7.5K) collections of poor/good-quality underwater images from 7 cameras; introduced with FUnIE-GAN. | [Paper](https://arxiv.org/abs/1903.09766) / [Code](https://github.com/xahidbuffon/FUnIE-GAN) / [Project](http://irvlab.cs.umn.edu/resources/euvp-dataset) |
+| 2020 | **UFO-120** | 1500 train + 120 test samples for joint enhancement and 2x/3x/4x super-resolution (SESR), with saliency annotations; introduced with Deep SESR. | [Paper](https://arxiv.org/abs/2002.01155) / [Code](https://github.com/xahidbuffon/Deep_SESR) |
+| 2020 | **SUIM** | First large-scale underwater semantic segmentation dataset, 1500+ images with pixel-level labels for 8 categories (fish, reefs, divers, robots, wrecks, etc.). | [Paper](https://arxiv.org/abs/2004.01241) / [Code](https://github.com/IRVLab/SUIM) |
+| 2021 | **SQUID** | 57 stereo underwater pairs from 4 dive sites (Red Sea and Mediterranean) with in-scene color charts and stereo-derived distance maps for quantitative restoration evaluation. | [Paper](https://arxiv.org/abs/1811.01343) / [Project](https://csms.haifa.ac.il/profiles/tTreibitz/datasets/ambient_forwardlooking/index.html) |
 | 2022 | **HoloOcean** | Open-source UE4-based underwater simulator with multi-agent support and sensor models (DVL, IMU, imaging sonar, optical/acoustic modems); Python interface. | [Paper](https://dl.acm.org/doi/10.1109/ICRA46639.2022.9812353) / [Project](https://bitbucket.org/frostlab/holoocean) |
-| 2023 | **LSUI** | LSUI: 4279 real underwater image groups with reference images, semantic segmentation maps and transmission maps; introduced with the U-shape Transformer. | [Paper](https://arxiv.org/abs/2111.11843) / [Code](https://github.com/LintaoPeng/U-shape_Transformer_for_Underwater_Image_Enhancement) |
+| 2023 | **LSUI** | 4279 real underwater image groups with reference images, semantic segmentation maps and transmission maps; introduced with the U-shape Transformer. | [Paper](https://arxiv.org/abs/2111.11843) / [Code](https://github.com/LintaoPeng/U-shape_Transformer_for_Underwater_Image_Enhancement) |
 | 2023 | **UID2021** | 60 multiply-degraded underwater images across 6 scene types plus 900 enhanced versions from 15 algorithms, with MOS from 52 observers for no-reference UIQA evaluation. | [Paper](https://arxiv.org/abs/2204.08813) / [Code](https://github.com/Hou-Guojia/UID2021) |
-| 2023 | **MVK** | MVK: 1379 single-shot underwater videos from 36 worldwide locations with keyframe annotations, for content-based video analysis and retrieval. | [Paper](https://arxiv.org/abs/2209.11518) / [Project](https://mvk.hkustvgd.com/) |
+| 2023 | **MVK** | 1379 single-shot underwater videos from 36 worldwide locations with keyframe annotations, for content-based video analysis and retrieval. | [Paper](https://arxiv.org/abs/2209.11518) / [Project](https://mvk.hkustvgd.com/) |
 | 2023 | **FLSea** | Forward-looking underwater stereo and visual-inertial sequences from the Mediterranean and Red Sea with ground-truth depth, for depth estimation, odometry and SLAM. | [Paper](https://arxiv.org/abs/2302.12772) |
 | 2023 | **SeaThru-NeRF** | NeRF with the SeaThru image formation model; releases multi-view real underwater scenes (forward-facing sets from Red Sea, Caribbean, Pacific) now standard for underwater NeRF/3DGS evaluation. | [Paper](https://arxiv.org/abs/2304.07743) / [Code](https://github.com/deborahLevy130/seathru_NeRF) / [Project](https://sea-thru-nerf.github.io/) |
 | 2023 | **Eiffel Tower** | Four visits over five years to the same hydrothermal vent (~1700 m depth) with SfM-derived poses and geometry; benchmark for long-term localization and 3D reconstruction. | [Paper](https://arxiv.org/abs/2305.05301) / [Project](https://www.seanoe.org/data/00810/92226/) |
 | 2023 | **USOD10K** | 10,255 underwater images covering 70 salient-object categories in 12 scenes, with saliency masks, boundaries and depth maps; TC-USOD baseline. | [Paper](https://ieeexplore.ieee.org/document/10102831) / [Code](https://github.com/LinHong-HIT/USOD10K) |
-| 2023 | **DRUVA** | DRUVA: real-sea videos of 20 submerged artifacts with near-360-degree azimuthal coverage in shallow water; supports depth recovery, restoration and 3D reconstruction. | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Varghese_Self-supervised_Monocular_Underwater_Depth_Recovery_Image_Restoration_and_a_Real-sea_ICCV_2023_paper.html) / [Code](https://github.com/nishavarghese15/DRUVA) |
+| 2023 | **DRUVA** | Real-sea videos of 20 submerged artifacts with near-360-degree azimuthal coverage in shallow water; supports depth recovery, restoration and 3D reconstruction. | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Varghese_Self-supervised_Monocular_Underwater_Depth_Recovery_Image_Restoration_and_a_Real-sea_ICCV_2023_paper.html) / [Code](https://github.com/nishavarghese15/DRUVA) |
 | 2024 | **UVEB** | First large-scale underwater video enhancement benchmark: 1308 video pairs, 453K+ HD frame pairs (38% 4K UHD), with the UVE-Net baseline. | [Paper](https://arxiv.org/abs/2404.14542) / [Code](https://github.com/yzbouc/UVEB) |
 | 2025 | **OceanSim** | NVIDIA Isaac Sim-based GPU-accelerated simulator with physics-based underwater image formation and real-time imaging sonar rendering for synthetic data generation. | [Paper](https://arxiv.org/abs/2503.01074) / [Code](https://github.com/umfieldrobotics/OceanSim) / [Project](https://umfieldrobotics.github.io/OceanSim/) |
-| 2025 | **Submerged3D** | Submerged3D: four deep-sea shipwreck scenes (20 RGB 720p images each) for sparse-view underwater 3D reconstruction. | [Paper](https://arxiv.org/abs/2505.15737) / [Code](https://github.com/theflash987/RUSplatting) |
+| 2025 | **Submerged3D** | Four deep-sea shipwreck scenes (20 RGB 720p images each) for sparse-view underwater 3D reconstruction. | [Paper](https://arxiv.org/abs/2505.15737) / [Code](https://github.com/theflash987/RUSplatting) |
 
 ## Evaluation Metrics
 
