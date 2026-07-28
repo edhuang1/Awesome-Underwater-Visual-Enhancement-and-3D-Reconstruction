@@ -22,18 +22,22 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # Publishers (IEEE, Elsevier, Wiley, MDPI, Sage) bot-block automated
-          # requests, so 403/429 are accepted rather than treated as failures.
-          # The AAAI hosts negotiate HTTP/2 incorrectly and always fail here even
-          # though the URLs resolve in a browser, so they are excluded outright.
+          # Publishers bot-block automated requests, so 403/429 are accepted
+          # rather than treated as failures. Three hosts fail regardless and are
+          # excluded outright, since flagging them every run trains maintainers
+          # to ignore the issue: Elsevier answers CI IPs with 400, the AAAI
+          # servers negotiate HTTP/2 incorrectly, and the star-history image API
+          # 500s under load. All were verified by hand to resolve in a browser.
           args: >-
             --no-progress
             --accept 200,202,206,403,429
             --exclude-path .github
+            --exclude 'sciencedirect\.com'
             --exclude 'ojs\.aaai\.org'
             --exclude 'doi\.org/10\.1609'
+            --exclude 'api\.star-history\.com'
             --max-concurrency 4
-            --max-retries 3
+            --max-retries 2
             --retry-wait-time 5
             --timeout 30
             './**/*.md'
