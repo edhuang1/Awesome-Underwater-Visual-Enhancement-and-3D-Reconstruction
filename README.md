@@ -23,7 +23,7 @@ If you find this list or our survey useful for your research, please consider [c
 
 ## Taxonomy
 
-The list follows the taxonomy of our survey: enhancement operates on the image domain, while 3D reconstruction recovers scene geometry; modern neural rendering increasingly couples the two by modeling the water medium inside the 3D representation.
+The list follows the taxonomy of our survey: enhancement operates on the image domain, while 3D reconstruction recovers scene geometry; modern neural rendering increasingly couples the two by modeling the water medium inside the 3D representation. The physical background common to both — wavelength-dependent attenuation, backscatter, and the revised underwater image formation model — is covered in Section 2 of the survey.
 
 ```mermaid
 graph LR
@@ -311,7 +311,7 @@ NeRF methods that model the water column / participating medium inside volume re
 
 ## Evaluation Metrics
 
-Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and underwater-specific (UCIQE/UIQM/CCF/FDUM/UIF/URanker) quality measures.
+Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and underwater-specific (UCIQE/UIQM/CCF/FDUM/UIF/URanker) quality measures. Section 5 of our survey discusses why these image-domain metrics correlate poorly with downstream reconstruction quality, and evaluates enhancement and reconstruction jointly at the pipeline level.
 
 | Year | Venue | Paper | Links | Name |
 |------|-------|-------|-------|------|
@@ -326,6 +326,14 @@ Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and
 | 2021 | ICCV | MUSIQ: Multi-scale Image Quality Transformer | [Paper](https://arxiv.org/abs/2108.05997) | MUSIQ |
 | 2022 | TIP | UIF: An Objective Quality Assessment for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2205.09392) / [Code](https://github.com/z21110008/UIF) | UIF |
 | 2023 | AAAI | Underwater Ranker: Learn Which Is Better and How to Be Better | [Paper](https://arxiv.org/abs/2208.06857) / [Code](https://github.com/RQ-Wu/UnderwaterRanker) / [Project](https://li-chongyi.github.io/URanker_files/) | URanker |
+
+<!-- Uncomment after pushing to GitHub, replacing OWNER/REPO with the real path:
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
+
+-->
 
 ## Related Awesome Lists
 
