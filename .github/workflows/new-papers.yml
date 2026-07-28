@@ -1,0 +1,37 @@
+name: Scan arXiv for New Papers
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'   # monthly, on the 1st
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'How many days back to search'
+        required: false
+        default: '45'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Search arXiv
+        id: scan
+        continue-on-error: true    # exit 1 just means "nothing new"
+        run: python scripts/find_new_papers.py --days ${{ inputs.days || 45 }} --out new-papers.md
+
+      - name: Open a triage issue
+        if: steps.scan.outcome == 'success'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "New underwater papers to triage (${{ github.run_number }})"
+          content-filepath: ./new-papers.md
+          labels: new-papers, automated

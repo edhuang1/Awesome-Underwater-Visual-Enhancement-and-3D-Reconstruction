@@ -32,3 +32,16 @@ Out of scope: general-purpose enhancement/reconstruction works with no underwate
 ## Reporting issues
 
 Found a broken link, a wrong venue, or a misplaced entry? Please open an issue — it helps keep the list reliable.
+
+## Automation
+
+Two workflows run monthly and open an issue when they have something to report:
+
+- **Link Check** verifies every URL. A few publishers reject automated requests, so their hosts are excluded rather than reported every month — see the comment in [.github/workflows/link-check.yml](.github/workflows/link-check.yml).
+- **Scan arXiv for New Papers** ([scripts/find_new_papers.py](scripts/find_new_papers.py)) lists recent arXiv papers that are not in the list yet, as a triage checklist. It filters on keywords, so expect some false positives — untick those and close the issue. Candidates still need their venue and code link checked by hand before being added.
+
+Run either on demand from the Actions tab, or locally:
+
+```bash
+python scripts/find_new_papers.py --days 60
+```

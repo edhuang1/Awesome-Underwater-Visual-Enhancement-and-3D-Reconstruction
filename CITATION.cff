@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If this list is useful for your research, please cite the survey below."
+title: "Awesome Underwater Visual Enhancement and 3D Reconstruction"
+abstract: >-
+  A curated list of papers, code, and datasets on underwater visual
+  enhancement and underwater 3D reconstruction, accompanying the survey
+  "Visual enhancement and 3D representation for underwater scenes: a review".
+type: dataset
+license: MIT
+repository-code: "https://github.com/edhuang1/Awesome-Underwater-Visual-Enhancement-and-3D-Reconstruction"
+authors:
+  - family-names: Huang
+    given-names: Guoxi
+  - family-names: Wang
+    given-names: Haoran
+  - family-names: Anantrasirichai
+    given-names: Nantheera
+preferred-citation:
+  type: article
+  title: "Visual enhancement and 3D representation for underwater scenes: a review"
+  journal: "Artificial Intelligence Review"
+  year: 2026
+  doi: "10.1007/s10462-026-11597-4"
+  url: "https://doi.org/10.1007/s10462-026-11597-4"
+  authors:
+    - family-names: Huang
+      given-names: Guoxi
+    - family-names: Wang
+      given-names: Haoran
+    - family-names: Seymour
+      given-names: Brett
+    - family-names: Kovacs
+      given-names: Evan
+    - family-names: Ellerbroc
+      given-names: John
+    - family-names: Blackham
+      given-names: Dave
+    - family-names: Anantrasirichai
+      given-names: Nantheera
