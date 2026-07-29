@@ -20,6 +20,7 @@ If you find this list or our survey useful for your research, please consider [c
 
 - **2026-06**: Our survey is published (open access) in *Artificial Intelligence Review* — [read it here](https://doi.org/10.1007/s10462-026-11597-4).
 - **2026-07**: This repository is launched. Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+- **2026-07**: Added 57 works from 2025–2026, including ECCV 2026 (Wat3R, AquaStereo, PCD), NeurIPS 2025 (Plenodium), ICLR 2026, and a wave of opti-acoustic SLAM and underwater Gaussian Splatting papers. The list now covers 245 entries.
 
 ## Taxonomy
 
@@ -73,6 +74,7 @@ Prior and concurrent surveys on underwater enhancement, SLAM, and neural renderi
 | 2024 | The Visual Computer | Underwater image restoration and enhancement: a comprehensive review of recent trends, challenges, and applications | [Paper](https://doi.org/10.1007/s00371-024-03630-w) | - |
 | 2025 | arXiv | Underwater Image Enhancement using Generative Adversarial Networks: A Survey | [Paper](https://arxiv.org/abs/2501.06273) | GAN-UIE Survey |
 | 2026 | TETCI | A Comprehensive Survey on Underwater Image Enhancement Based on Deep Learning | [Paper](https://arxiv.org/abs/2405.19684) | - |
+| 2026 | arXiv | Underwater imaging without color distortions requires RAW capture | [Paper](https://arxiv.org/abs/2603.20823) | - |
 
 ## Non-learning Enhancement and Restoration
 
@@ -102,6 +104,8 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2022 | TIP | Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement | [Paper](https://ieeexplore.ieee.org/document/9788535) / [Code](https://github.com/Li-Chongyi/MMLE_code) / [Project](https://li-chongyi.github.io/proj_MMLE.html) | MLLE |
 | 2022 | TIP | Underwater Image Enhancement With Hyper-Laplacian Reflectance Priors | [Paper](https://ieeexplore.ieee.org/document/9854113/) / [Code](https://github.com/zhuangpeixian/HLRP) | HLRP |
 | 2024 | TCSVT | Underwater Image Enhancement via Weighted Wavelet Visual Perception Fusion | [Paper](https://doi.org/10.1109/TCSVT.2023.3299314) / [Code](https://github.com/Li-Chongyi/WWPF_code) | WWPF |
+| 2026 | arXiv | A Dual-Branch Collaborative Framework for Joint Optimization of Underwater Image Enhancement and Object Detection | [Paper](https://arxiv.org/abs/2606.15857) | - |
+| 2026 | CVPR-W | Single View Seafloor Recovery from Imaging Sonar via Differentiable Rendering | [Paper](https://arxiv.org/abs/2605.24195) | - |
 
 ## Deep Learning-based Enhancement
 
@@ -130,6 +134,15 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2024 | ESWA | LiteEnhanceNet: A Lightweight Network for Real-time Single Underwater Image Enhancement | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423030488) | LiteEnhanceNet |
 | 2025 | SMC | MAC-Lookup: Multi-Axis Conditional Lookup Model for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2507.02270) / [Code](https://github.com/onlycatdoraemon/MAC-Lookup) | MAC-Lookup |
 | 2025 | arXiv | AQUA-Net: Adaptive Frequency Fusion and Illumination Aware Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2512.05960) | AQUA-Net |
+| 2026 | arXiv | DY-LUT: Depth-Aware YCbCr Lookup Tables for Real-Time Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2607.22801) | DY-LUT |
+| 2026 | ICME | Real-Time Underwater Image Enhancement via Frequency-Guided Dual-Path Attention | [Paper](https://arxiv.org/abs/2606.30314) / [Code](https://github.com/LethyZhang/FGDPA) | FGDPA |
+| 2026 | ICIP | An Attention-Enhanced Network with Joint Dehazing and Retinex-Based Enhancement for Underwater Images | [Paper](https://arxiv.org/abs/2605.14677) | ADR |
+| 2026 | arXiv | An Underwater Dehazing Network with Implicit Transmission Estimation | [Paper](https://arxiv.org/abs/2605.13720) | UDehaze-iT |
+| 2026 | arXiv | Halo Separation-guided Underwater Multi-scale Image Restoration | [Paper](https://arxiv.org/abs/2605.10374) | - |
+| 2026 | IJCNN | UIESNN: A Scale-Aware Spiking Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2605.08376) / [Code](https://github.com/ChrisChen1023/UIESNN) | UIESNN |
+| 2026 | arXiv | Advancing Visual Reliability: Color-Accurate Underwater Image Enhancement for Real-Time Underwater Missions | [Paper](https://arxiv.org/abs/2603.16363) / [Code](https://github.com/Cloudyu1215/UIE) | - |
+| 2026 | TIP | Downstream Task Inspired Underwater Image Enhancement: A Perception-Aware Study from Dataset Construction to Network Design | [Paper](https://arxiv.org/abs/2603.01767) / [Code](https://github.com/oucailab/DTIUIE) | DTI-UIE |
+| 2026 | arXiv | UD-SfPNet: An Underwater Descattering Shape-from-Polarization Network for 3D Normal Reconstruction | [Paper](https://arxiv.org/abs/2603.00908) / [Code](https://github.com/WangPuyun/UD-SfPNet) | UD-SfPNet |
 
 ### GAN-based
 
@@ -151,6 +164,7 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2024 | Ecological Informatics | MuLA-GAN: Multi-Level Attention GAN for Enhanced Underwater Visibility | [Paper](https://arxiv.org/abs/2312.15633) / [Code](https://github.com/AhsanBaidar/MuLA_GAN) | MuLA-GAN |
 | 2024 | PR | DGD-cGAN: A Dual Generator for Image Dewatering and Restoration | [Paper](https://arxiv.org/abs/2211.10026) | DGD-cGAN |
 | 2025 | ICCIT | Underwater Image Reconstruction Using a Swin Transformer-Based Generator and PatchGAN Discriminator | [Paper](https://arxiv.org/abs/2512.05866) | SwinGAN-UIR |
+| 2026 | TGRS | Enhancing Underwater Images via Adaptive Semantic-aware Codebook Learning | [Paper](https://arxiv.org/abs/2602.10586) / [Code](https://github.com/oucailab/SUCode) | SUCode |
 
 ### Transformer-based
 
@@ -168,6 +182,9 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2025 | WACV | Phaseformer: Phase-based Attention Mechanism for Underwater Image Restoration and Beyond | [Paper](https://arxiv.org/abs/2412.01456) / [Code](https://github.com/Mdraqibkhan/Phaseformer) | Phaseformer |
 | 2025 | WACV | USWformer: Efficient Sparse Wavelet Transformer for Underwater Image Enhancement | [Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Mishra_USWformer_Efficient_Sparse_Wavelet_Transformer_for_Underwater_Image_Enhancement_WACV_2025_paper.pdf) | USWformer |
 | 2025 | JOE | UIE-SFIFormer: Underwater Image Enhancement Based on Physical-Guided Spatial-Frequency Interaction Transformer | [Paper](https://ieeexplore.ieee.org/document/10805568/) | UIE-SFIFormer |
+| 2026 | arXiv | Style-Decoupled Adaptive Routing Network for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2604.12257) / [Code](https://github.com/WHU-USI3DV/SDAR-Net) | SDAR-Net |
+| 2026 | AAAI | Empowering Semantic-Sensitive Underwater Image Enhancement with VLM | [Paper](https://arxiv.org/abs/2603.12773) | - |
+| 2026 | arXiv | Retinex Meets Language: A Physics-Semantics-Guided Underwater Image Enhancement Network | [Paper](https://arxiv.org/abs/2603.07076) | PSG-UIENet |
 
 ### Mamba and State-Space Models
 
@@ -179,9 +196,14 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2024 | SPL | UWMamba: UnderWater Image Enhancement With State Space Model | [Paper](https://ieeexplore.ieee.org/document/10700679/) | UWMamba |
 | 2024 | MLISE | MUIR: Mamba for Underwater Image Rendering | [Paper](https://doi.org/10.1109/MLISE62164.2024.10674249) | MUIR |
 | 2025 | PRCV | O-Mamba: O-shape State-Space Model for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2408.12816) / [Code](https://github.com/chenydong/O-Mamba) | O-Mamba |
+| 2025 | SPIE | BVI-Mamba: Video Enhancement Using a Visual State-Space Model for Low-Light and Underwater Environments | [Paper](https://arxiv.org/abs/2604.23655) / [Code](https://github.com/russellllaputa/BVI-Mamba) | BVI-Mamba |
+| 2025 | arXiv | VRS-UIE: Value-Driven Reordering Scanning for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2505.01224) | VRS-UIE |
 | 2026 | AAAI | Bayesian Neural Networks for One-to-Many Mapping in Image Enhancement | [Paper](https://arxiv.org/abs/2501.14265) / [Code](https://github.com/BinCVER/BEM) | BEM |
 | 2026 | AAAI | PGMamba: A Physical Model-Guided Global Mamba for Underwater Image Enhancement | [Paper](https://doi.org/10.1609/aaai.v40i11.37895) | PGMamba |
 | 2026 | AAAI-W | Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2604.16266) | Hero-Mamba |
+| 2026 | arXiv | CLUIE: Clustering-Aware Recurrent Propagation with Local Structural Compensation for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2607.21467) / [Code](https://github.com/geekpool/CLUIE) | CLUIE |
+| 2026 | arXiv | Variational Deep Unfolding with Mamba-Based Nonlocal Modeling for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2606.14781) / [Code](https://github.com/MIA-UIB/Variational-Unfolding-Mamba-Underwater-Enhancement) | - |
+| 2026 | MMSys | UFMFormer: a hybrid transformer-Mamba network for underwater image enhancement via FFT | [Paper](https://link.springer.com/article/10.1007/s00530-025-02181-x) / [Code](https://github.com/DingBC/UFMFormer) | UFMFormer |
 
 ### Diffusion-based
 
@@ -198,6 +220,9 @@ Statistical contrast methods, image-formation-model (IFM) priors, Retinex varian
 | 2025 | PR | Underwater Image Enhancement by Diffusion Model with Customized CLIP-Classifier | [Paper](https://arxiv.org/abs/2405.16214) / [Code](https://github.com/OUCVisionGroup/CLIP-UIE) / [Project](https://oucvisiongroup.github.io/CLIP-UIE.html/) | CLIP-UIE |
 | 2025 | Neurocomputing | BDMUIE: Underwater Image Enhancement Based on Bayesian Diffusion Model | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231224020459) | BDMUIE |
 | 2026 | JOE | WaterDiff: Mamba-Based Latent Diffusion Model for Underwater Image Enhancement | [Paper](https://doi.org/10.1109/JOE.2026.3674692) / [Code](https://github.com/Guan-MS/WaterDiff) | WaterDiff |
+| 2026 | arXiv | RQUL-UIE: Revitalizing Quality-Unstable Labels for Underwater Image Enhancement via In-Dataset Self-Supervision | [Paper](https://arxiv.org/abs/2606.06176) / [Code](https://github.com/Haru2022/RQUL-UIE) | RQUL-UIE |
+| 2026 | arXiv | WaterGen: Decoupling Scene and Medium in Underwater Image Generation | [Paper](https://arxiv.org/abs/2606.31147) / [Code](https://github.com/jiayi-wu-umd/WaterGen) | WaterGen |
+| 2026 | arXiv | LOBSTgER-enhance: an underwater image enhancement pipeline | [Paper](https://arxiv.org/abs/2602.05163) / [Code](https://github.com/mentzelopoulos/Latent_UnderWater_Diffusion) / [Project](https://mentzelopoulos.github.io/) | LOBSTgER-enhance |
 
 ### Semi-, Weakly- and Un-supervised
 
@@ -211,6 +236,9 @@ Methods trained without paired supervision: contrastive, mean-teacher, domain ad
 | 2023 | CVPR | Contrastive Semi-supervised Learning for Underwater Image Restoration via Reliable Bank | [Paper](https://arxiv.org/abs/2303.09101) / [Code](https://github.com/Huang-ShiRui/Semi-UIR) | Semi-UIR |
 | 2024 | IJCV | HCLR-Net: Hybrid Contrastive Learning Regularization with Locally Randomized Perturbation for Underwater Image Enhancement | [Paper](https://link.springer.com/article/10.1007/s11263-024-01987-y) / [Code](https://github.com/zhoujingchun03/HCLR-Net) | HCLR-Net |
 | 2024 | TMM | Underwater Image Enhancement with Cascaded Contrastive Learning | [Paper](https://arxiv.org/abs/2411.10682) | CCL-Net |
+| 2026 | Inf. Fusion | Fusing Transferred Priors and Physics-based Decomposition for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2606.15648) / [Code](https://github.com/Haru2022/P2-UIE) | P2-UIE |
+| 2026 | arXiv | Development of Domain-Invariant Visual Enhancement and Restoration (DIVER) Approach for Underwater Images | [Paper](https://arxiv.org/abs/2601.22878) | DIVER |
+| 2026 | ICASSP | Reward-Guided Policy Optimization with Physical Priors for Underwater Color Restoration | [Paper](https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6967) | - |
 
 ## Underwater 3D Reconstruction
 
@@ -234,6 +262,19 @@ Photogrammetry pipelines and SLAM systems, including refraction-aware geometry f
 | 2025 | ICRA | End-to-End Underwater Multi-View Stereo for Dense Scene Reconstruction | [Paper](https://ieeexplore.ieee.org/document/11128539/) | UwMVS |
 | 2025 | TRO | AQUA-SLAM: Tightly-Coupled Underwater Acoustic-Visual-Inertial SLAM with Sensor Calibration | [Paper](https://arxiv.org/abs/2503.11420) | AQUA-SLAM |
 | 2026 | arXiv | WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment | [Paper](https://arxiv.org/abs/2604.04642) | WaterSplat-SLAM |
+| 2026 | arXiv | WAT3R: Feedforward Underwater 3D Reconstruction | [Paper](https://arxiv.org/abs/2607.21023) / [Project](https://xujiayi777.github.io/WAT3R.github.io/) | WAT3R |
+| 2026 | ECCV | Wat3R: Underwater 3D Geometry Learning without Annotations | [Paper](https://arxiv.org/abs/2607.08772) / [Code](https://github.com/LSXI7/Wat3R) | Wat3R |
+| 2026 | ECCV | AquaStereo: Enabling Underwater Stereo Matching via Depth-Conditioned Diffusion and Geometry Self-Distillation | [Paper](https://arxiv.org/abs/2607.04303) / [Code](https://github.com/qz-wei/AquaStereo) | AquaStereo |
+| 2026 | arXiv | APVI-SLAM: Real-Time Acoustic-Pressure-Visual-Inertial Localization and Photorealistic Mapping System in Complex Underwater Environment | [Paper](https://arxiv.org/abs/2607.06222) | APVI-SLAM |
+| 2026 | ICRA | Mapping Pamir: Multi-Session Visual-Inertial SLAM and 3D Reconstruction of an Underwater Shipwreck | [Paper](https://arxiv.org/abs/2607.10925) / [Code](https://github.com/AutonomousFieldRoboticsLab/Pamir_Visual_Inertial_Dataset) | Mapping Pamir |
+| 2026 | ICRA | Sonar-MASt3R: Real-Time Opti-Acoustic Fusion in Turbid, Unstructured Environments | [Paper](https://arxiv.org/abs/2603.13585) / [Project](https://sonar-mast3r.github.io/) | Sonar-MASt3R |
+| 2026 | arXiv | VISO: Robust Underwater Visual-Inertial-Sonar SLAM with Photometric Rendering for Dense 3D Reconstruction | [Paper](https://arxiv.org/abs/2601.01144) | VISO |
+| 2026 | arXiv | SurfSLAM: Sim-to-Real Underwater Stereo Reconstruction For Real-Time SLAM | [Paper](https://arxiv.org/abs/2601.10814) / [Project](https://umfieldrobotics.github.io/SurfSLAM/) | SurfSLAM |
+| 2026 | ICRA | Towards Versatile Opti-Acoustic Sensor Fusion and Volumetric Mapping | [Paper](https://arxiv.org/abs/2603.14457) / [Code](https://github.com/ivanacollg/stereosonar_camera_mapping) | - |
+| 2026 | arXiv | A High-accuracy Event-based Underwater SLAM System | [Paper](https://arxiv.org/abs/2606.18951) | - |
+| 2026 | RA-L | Above and Below: Heterogeneous Multi-robot SLAM Across Surface and Underwater Domains | [Paper](https://arxiv.org/abs/2605.09811) / [Project](https://ieeexplore.ieee.org/document/11248870/) | - |
+| 2026 | arXiv | DIVO: Continuous-time DVL-Inertial-Visual Odometry for Unmanned Underwater Vehicles | [Paper](https://arxiv.org/abs/2607.04615) | DIVO |
+| 2026 | ICRA-W | Towards 3D karst underwater scene reconstruction from rotating sonar data | [Paper](https://arxiv.org/abs/2606.20322) | - |
 
 ### Neural Radiance Fields
 
@@ -256,6 +297,8 @@ NeRF methods that model the water column / participating medium inside volume re
 | 2025 | ISCAS | AquaNeRF: Neural Radiance Fields in Underwater Media with Distractor Removal | [Paper](https://arxiv.org/abs/2502.16351) | AquaNeRF |
 | 2025 | arXiv | Is-NeRF: In-scattering Neural Radiance Field for Blurred Images | [Paper](https://arxiv.org/abs/2508.13808) | Is-NeRF |
 | 2025 | NeurIPS | I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions | [Paper](https://arxiv.org/abs/2510.22161) / [Code](https://github.com/ShuhongLL/I2-NeRF) / [Project](https://shuhongll.github.io/I2_NeRF/) | I2-NeRF |
+| 2025 | ACM MM | NeuroPump: Simultaneous Geometric and Color Rectification for Underwater Images | [Paper](https://arxiv.org/abs/2412.15890) / [Code](https://github.com/YGswu/NeuroPump) / [Project](https://ygswu.github.io/NeuroPump.github.io/) | NeuroPump |
+| 2026 | arXiv | BathyFacto: Refraction-Aware Two-Media Neural Radiance Fields for Bathymetry | [Paper](https://arxiv.org/abs/2605.10174) | BathyFacto |
 
 ### 3D Gaussian Splatting
 
@@ -278,9 +321,20 @@ NeRF methods that model the water column / participating medium inside volume re
 | 2025 | BMVC | RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2505.15737) / [Code](https://github.com/theflash987/RUSplatting) | RUSplatting |
 | 2025 | arXiv | UW-3DGS: Underwater 3D Reconstruction with Physics-Aware Gaussian Splatting | [Paper](https://arxiv.org/abs/2508.06169) | UW-3DGS |
 | 2025 | arXiv | SWAGSplatting: Semantic-guided Water-scene Augmented Gaussian Splatting | [Paper](https://arxiv.org/abs/2509.00800) | SWAGSplatting |
+| 2025 | NeurIPS | Plenodium: UnderWater 3D Scene Reconstruction with Plenoptic Medium Representation | [Paper](https://arxiv.org/abs/2505.21258) / [Code](https://github.com/cgwu1999/plenodium) / [Project](https://plenodium.github.io/) | Plenodium |
+| 2025 | arXiv | AquaGS: Fast Underwater Scene Reconstruction with SfM-Free Gaussian Splatting | [Paper](https://arxiv.org/abs/2505.01799) | AquaGS |
+| 2025 | C&G | DualPhys-GS: Dual Physically-Guided 3D Gaussian Splatting for Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2508.09610) | DualPhys-GS |
+| 2025 | RA-L | SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatting | [Paper](https://arxiv.org/abs/2504.00159) / [Code](https://github.com/umfieldrobotics/sonar_splat) / [Project](https://umfieldrobotics.github.io/sonarsplat3D/) | SonarSplat |
+| 2025 | CGF | WaterGS: Physically-Based Imaging in Gaussian Splatting for Underwater Scene Reconstruction | [Paper](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70270) | WaterGS |
 | 2026 | TIP | 3D-UIR: 3D Gaussian for Underwater 3D Scene Reconstruction via Physics Based Appearance-Medium Decoupling | [Paper](https://arxiv.org/abs/2505.21238) / [Project](https://bilityniu.github.io/3D-UIR/) | 3D-UIR |
 | 2026 | AAAI | OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction | [Paper](https://arxiv.org/abs/2601.04984) / [Project](https://oceansplat.github.io) | OceanSplat |
 | 2026 | arXiv | ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting | [Paper](https://arxiv.org/abs/2604.11992) | ReefMapGS |
+| 2026 | arXiv | Ocean4D: Generative Underwater 4D Reconstruction via Medium-Aware Video Diffusion | [Paper](https://arxiv.org/abs/2606.23298) | Ocean4D |
+| 2026 | arXiv | WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration | [Paper](https://arxiv.org/abs/2601.19753) / [Project](https://buaaxrzhang.github.io/WaterClear-GS/) | WaterClear-GS |
+| 2026 | arXiv | Underwater360: Reconstructing Underwater Scenes from Panoramic Images with Omnidirectional Gaussian Splatting | [Paper](https://arxiv.org/abs/2605.26447) / [Code](https://github.com/SwcK423/Underwater360) | Underwater360 |
+| 2026 | arXiv | NAS-GS: Noise-Aware Sonar Gaussian Splatting | [Paper](https://arxiv.org/abs/2601.06285) / [Code](https://github.com/SenseRoboticsLab/NAS-GS) / [Project](https://senseroboticslab.github.io/NAS-GS-Page/) | NAS-GS |
+| 2026 | ICLR | Uncertainty-Aware 3D Reconstruction for Dynamic Underwater Scenes | [Paper](https://openreview.net/forum?id=96DTvuYq4h) | UDF |
+| 2026 | ICME | TUGS: Physics-based Compact Representation of Underwater Scenes by Tensorized Gaussian | [Paper](https://arxiv.org/abs/2505.08811) / [Code](https://github.com/LiamLian0727/TUGS) / [Project](https://liamlian0727.github.io/TUGS/) | TUGS |
 
 ## Datasets and Simulators
 
@@ -308,6 +362,9 @@ NeRF methods that model the water column / participating medium inside volume re
 | 2024 | **UVEB** | First large-scale underwater video enhancement benchmark: 1308 video pairs, 453K+ HD frame pairs (38% 4K UHD), with the UVE-Net baseline. | [Paper](https://arxiv.org/abs/2404.14542) / [Code](https://github.com/yzbouc/UVEB) |
 | 2025 | **OceanSim** | NVIDIA Isaac Sim-based GPU-accelerated simulator with physics-based underwater image formation and real-time imaging sonar rendering for synthetic data generation. | [Paper](https://arxiv.org/abs/2503.01074) / [Code](https://github.com/umfieldrobotics/OceanSim) / [Project](https://umfieldrobotics.github.io/OceanSim/) |
 | 2025 | **Submerged3D** | Four deep-sea shipwreck scenes (20 RGB 720p images each) for sparse-view underwater 3D reconstruction. | [Paper](https://arxiv.org/abs/2505.15737) / [Code](https://github.com/theflash987/RUSplatting) |
+| 2026 | **BALTIC** | controlled 13-dataset air/underwater benchmark over lighting, motion and medium, with an air-image cross-domain strategy that stabilizes underwater SfM/NeRF/3DGS | [Paper](https://arxiv.org/abs/2604.19133) |
+| 2026 | **M3D-Stereo** | 7,904 lab-captured stereo pairs with pixel-aligned clear ground truth across underwater scatter, haze, and low-light media at six graded severity levels | [Paper](https://arxiv.org/abs/2604.12917) / [Project](https://huggingface.co/datasets/M3D-Stereo/M3D-Stereo) |
+| 2026 | **UEOF** | first synthetic underwater event-camera optical-flow benchmark, built from physically-based ray-traced RGBD sequences with dense ground-truth flow, depth and camera motion | [Paper](https://arxiv.org/abs/2601.10054) / [Code](https://github.com/robotic-vision-lab/UEOF-A-Benchmark-Dataset-for-Underwater-Event-Based-Optical-Flow) / [Project](https://robotic-vision-lab.github.io/ueof/) |
 
 ## Evaluation Metrics
 
@@ -326,6 +383,7 @@ Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and
 | 2021 | ICCV | MUSIQ: Multi-scale Image Quality Transformer | [Paper](https://arxiv.org/abs/2108.05997) | MUSIQ |
 | 2022 | TIP | UIF: An Objective Quality Assessment for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2205.09392) / [Code](https://github.com/z21110008/UIF) | UIF |
 | 2023 | AAAI | Underwater Ranker: Learn Which Is Better and How to Be Better | [Paper](https://arxiv.org/abs/2208.06857) / [Code](https://github.com/RQ-Wu/UnderwaterRanker) / [Project](https://li-chongyi.github.io/URanker_files/) | URanker |
+| 2026 | ECCV | Beyond Aesthetics: Quantifying Information Loss in Turbid Scenes | [Paper](https://arxiv.org/abs/2606.26295) / [Project](https://vap.aau.dk/pcd) | PCD |
 
 ## Star History
 
