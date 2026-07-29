@@ -5,7 +5,7 @@ Contributions are welcome! This list aims to track papers, code, and datasets on
 ## How to contribute
 
 1. Fork this repository and create a new branch.
-2. Add your entry to the appropriate section of `README.md`, keeping entries **sorted by year (ascending)**.
+2. Add your entry to the appropriate section of `README.md`, keeping entries **sorted by year, newest first**. New work therefore goes at the top of its table.
 3. Open a pull request with a short description of the added work.
 
 ## Entry format
