@@ -372,6 +372,7 @@ Full-reference (PSNR/SSIM/LPIPS), general no-reference (NIQE/BRISQUE/MUSIQ), and
 
 | Year | Venue | Paper | Links | Name |
 |------|-------|-------|-------|------|
+| 2026 | arXiv | JLD: Perceptual Distance Through A Jacobian Lens | [Paper](https://arxiv.org/abs/2610.05967) / [Code](https://github.com/shreshthsaini/jld) | JLD |
 | 2026 | ECCV | Beyond Aesthetics: Quantifying Information Loss in Turbid Scenes | [Paper](https://arxiv.org/abs/2606.26295) / [Project](https://vap.aau.dk/pcd) | PCD |
 | 2023 | AAAI | Underwater Ranker: Learn Which Is Better and How to Be Better | [Paper](https://arxiv.org/abs/2208.06857) / [Code](https://github.com/RQ-Wu/UnderwaterRanker) / [Project](https://li-chongyi.github.io/URanker_files/) | URanker |
 | 2022 | TIP | UIF: An Objective Quality Assessment for Underwater Image Enhancement | [Paper](https://arxiv.org/abs/2205.09392) / [Code](https://github.com/z21110008/UIF) | UIF |
